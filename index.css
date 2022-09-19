@@ -4,11 +4,11 @@ html{
 }
 
 .hero {
-    background-image: url(./Resources/background.jpg);
+    background-color: #c79197;
     background-size: cover;
     width: auto;
     height: 100%;
-    padding: 14em;
+    padding: 10em;
     opacity: 0.7;
 }
 .navigationbar {
@@ -16,13 +16,13 @@ html{
     display: flex;
 }
 .navigationbar li {
-    color:#FFF2E3;
+    color:#473436;
     margin-top: 0%;
     margin-left: 10%;
 }
 .navigationbar a{
     font-size: 3em;
-    color:white;
+    color:#473436;
     font-weight: bold;
     
 }
@@ -31,13 +31,13 @@ html{
     font-size: 4em;
     margin-right: 13%;
     font-weight: bold;
-    text-shadow: 2px 2px 4px #FFF2E3;
+    text-shadow: 2px 2px 4px #473436;
 }
 .header {
     font-size: 3em;
-    color: #FFF2E3;
+    color: #473436;
     font-weight: bold;
-    text-shadow: 2px 2px 4px #FFF2E3;
+    text-shadow: 2px 2px 4px #473436;
 }
 .cassie{
     width: 15%;
