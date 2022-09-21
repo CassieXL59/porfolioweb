@@ -1,0 +1,71 @@
+html{
+    font: Verdana;
+}
+
+.hero {
+    background-color: #c79197;
+    background-size: cover;
+    width: auto;
+    height: 100%;
+    padding: 5em;
+    opacity: 0.7;
+}
+.navigationbar {
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+}
+.navigationbar li {
+    color:#473436;
+    margin-top: 0%;
+    margin-left: 10%;
+}
+.navigationbar a{
+    font-size: 2em;
+    color:#473436;
+    font-weight: bold;
+    
+}
+.Xiali {
+    font-style: italic;
+    font-size: 2em;
+    margin-right: 13%;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #473436;
+    text-decoration: none;
+}
+.header {
+    font-size: 3em;
+    color: #473436;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #473436;
+}
+.meeting {
+    text-align: center;
+    color: #B08085;
+    font-size: 3em;
+}
+h2 {
+    text-align: center;
+    color: #B08085;
+    font-size: 2em;
+}
+.contact-method {
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+.contact-method img {
+    width: 40%;
+    height: 40%;
+}
+footer {
+    text-align: center;
+    color: #B08085;
+}
+.dark-mode {
+    background-color: black;
+    color: white;
+}

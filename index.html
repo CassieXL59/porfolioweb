@@ -16,6 +16,15 @@
     </div>
 </head>
 <body>
+    <div class="button">
+        <button onclick="myFunction()">Toggle dark mode</button>
+            </div>
+    <script>
+        function myFunction() {
+                   var element = document.body;
+                   element.classList.toggle("dark-mode");
+                }
+    </script>
     <div class="aboutme" id="aboutme">
         <h2>About Me</h2>
         <div class="aboutmebody">
@@ -32,13 +41,28 @@
     <br>
     <div class="projects" id="project">
         <h2>Projects</h2>
-        <h3 class="art-project">Art and Crafts Project</h3>
-        <h3 class="webstyle">Webstyle Project</h3>
-        <h3 class="responsive">Responsive Club Project</h3>
-        <h3 class="business">Flex-box Business Project</h3>
+        <div class="project-content">
+        <div class="art-project">
+            <img src="./Resources/art.png">
+            <h3>Art and Crafts Project</h3>
+        </div>
+        <div class="webstyle">
+            <img src="./Resources/webstyle.png">
+            <h3>Webstyle Project</h3>
+        </div>
+        <div class="responsive">
+            <img src="./Resources/responsive.jpg">
+            <h3>Responsive Club Project</h3>
+        </div>
+        <div class="business">
+            <img src="./Resources/MFC logo.jpg">
+            <h3>Flex-box Business Project</h3>
+        </div>
+        </div>  
     </div>
     <div class="skills" id="skill">
         <h2>Skills</h2>
+        <div class="skills-icons">
         <img src="./Resources/HTML.png">
         <img src="./Resources/css.png">
         <img src="./Resources/javascript.png">
@@ -48,6 +72,8 @@
         <img src="./Resources/github.png">
         <img src="./Resources/microsoft.png">
         <img src="./Resources/Clio.png">
+        </div>
+        
     </div>
 </body>
 <footer>
