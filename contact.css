@@ -69,3 +69,23 @@ footer {
     background-color: black;
     color: white;
 }
+@media only screen and (max-width: 768px) {
+    .header {
+      display: none;
+    }
+    .introduction{
+        font-size: 1em;
+    }
+    .Xiali{
+        font-size: 2em;
+    }
+    .navigationbar {
+        list-style: none;
+        display:block;
+    }
+    .navigationbar a{
+        font-size: 1 em;
+        color:#473436;  
+    }
+  }
+  
