@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <head>
     <title>front-end web developer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./index.css">
     <div class="hero">
         <nav>
@@ -29,8 +30,14 @@
         <h2>About Me</h2>
         <div class="aboutmebody">
             <div>
-                <img src="./Resources/cassie photo.jpg" class="left">
+                <img src="./Resources/cassie photo.jpg" class="left" id="profilephoto" onclick="bigFunction()">
             </div>
+            <script>
+                function bigFunction(){
+                    document.getElementById("profilephoto").style.width ="14%";
+                    document.getElementById("profilephoto").style.height = "14%";
+                }
+            </script>
             <div class="introduction">
                 <p>I am an English-Chinese bilingual paralegal/case managet with eight years of working experience involving contracts proofreading, court pleadings drafting, recruiting, training, managing large group of people, translating and negotiating.</p>
             <p>My passion for creating new things and solving problems have inspired me to pursue a career in Web Development. Thanks to all the great <em class="resources">resources online</em>, I have been able to teach myself and pursue this dream further.</p>
